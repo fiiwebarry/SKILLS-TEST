@@ -42,6 +42,25 @@ const SchedulePage = () => {
 
                     </div>
 
+                    <div className="schedule-tab">
+                        <div>
+                            <p>18 Dec 2016</p>
+                        </div>
+                        <div>
+                            <p>Vestibulum Viverra</p>
+                        </div>
+
+                    </div>
+                    <div className="schedule-tab">
+                        <div>
+                            <p>7 Jan 2017</p>
+                        </div>
+                        <div>
+                            <p>Vestibulum Viverra</p>
+                        </div>
+
+                    </div>
+
 
 
                 </div>

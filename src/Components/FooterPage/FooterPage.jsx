@@ -11,8 +11,8 @@ const FooterPage = () => {
                     <div className="Nav-tab-tablet">
                         <img src={Icon} />
                         <div>
-                            <p className="text-tab-tab">LOSANGELES</p>
-                            <p className="text-tab-text">MOUNTAINS</p>
+                            <p className="text-tab-tab3">LOSANGELES</p>
+                            <p className="text-tab-text3">MOUNTAINS</p>
                         </div>
 
                     </div>
