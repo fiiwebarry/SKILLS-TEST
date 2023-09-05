@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import HistoryPage from './Components/HistoryPage/HistoryPage';
@@ -10,7 +10,7 @@ import './App.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
