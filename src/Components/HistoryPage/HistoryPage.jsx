@@ -33,7 +33,11 @@ const HistoryPage = () => {
                     <img className="padding" src={tourist1} />
                     <img className="padding" src={tourist} />
                     <img className="padding" src={tourist1} />
-
+                </div>
+                <div className='dots'>
+                    <div className='dot'></div>
+                    <div className='dot'></div>
+                    <div className='dot'></div>
                 </div>
             </div>
 

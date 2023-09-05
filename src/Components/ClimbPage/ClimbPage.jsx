@@ -1,4 +1,5 @@
-import "./ClimbPage.css"
+import "./ClimbPage.css";
+// import '../HistoryPage/HistoryPage.css';
 const ClimbPage = () => {
 
     return (

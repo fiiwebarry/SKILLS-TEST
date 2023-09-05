@@ -1,5 +1,4 @@
 .page-holder-tab{
-
  background-image: url("/src/assets/Images/page-holder.png");
  background-repeat: no-repeat;
  background-size: cover;
@@ -7,60 +6,109 @@
 
 }
 .container{
-    margin: 0 auto;
-    padding:0px;
-    width:60%;
- }
+   margin: 0 auto;
+   padding:0px;
+   width:60%;
+}
  
- .Navbar-tab{
+.Navbar-tab{
+   padding-top: 20px; 
+   display: flex;
+   justify-content: space-between;
+}
 
-     padding-top: 20px; 
-     display: flex;
-     justify-content: space-between;
- }
- .Navbar-text{
-font-family: 'Lato', sans-serif;
-color:#ffff;
- }
+.Navbar-text{
+   font-family: 'Lato', sans-serif;
+   color:#ffff;
+}
 
- a{
+a{
    text-decoration: underline;
- }
- .text-tab{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    font-family: 'Bebas Neue', sans-serif;
-    line-height: 120px;
-    font-size: 110px;
-    margin-top: 140px;
-    margin-right: 140px;
-    
- }
- .text-tab-tab{
-    color:#4d4d4d;
-   
- }
- .text-tab-text{
-    color: #3f4d6a;
-   
-    
- }
- .text-tab-tab1{
+}
+.text-tab{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   font-family: 'Bebas Neue', sans-serif;
+   line-height: 1.1;
+   font-size: 110px;
+   margin-top: 140px;
+   margin-right: 140px; 
+}
+
+.text-tab-tab{
+   color:#4d4d4d;
+}
+
+.text-tab-text{
+   color: #3f4d6a;   
+}
+
+.text-tab-tab1{
    color:#4d4d4d;
    letter-spacing: 10px;
    font-size: 130px;
-
-   
-   
    display: inline-block;
-   
 }
 
 .text-tab-text2{
    color: #3f4d6a;
-   
-
-  
 }
- 
+
+@media screen and (max-width: 1024px) {
+   .container {
+      width: 70% !important;
+   }
+   .text-tab {
+      font-size: 100px !important;
+      margin-top: 80px !important;
+      margin-right: 90px !important;
+   }
+   .text-tab-tab1 {
+      letter-spacing: 8px !important;
+      font-size: 120px !important;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+      width: 80% !important;
+   }
+   .text-tab {
+      font-size: 73px !important;
+      margin-top: 70px !important;
+      margin-right: 50px !important;
+   }
+   .text-tab-tab1 {
+      font-size: 85px !important;
+   }
+}
+
+@media screen and (max-width: 560px) {
+   .container {
+      width: 85% !important;
+   }
+   .text-tab {
+      font-size: 64px !important;
+      margin-top: 70px !important;
+      margin-right: 20px !important;
+   }
+   .text-tab-tab1 {
+      font-size: 68px !important;
+   }
+}
+
+@media screen and (max-width: 420px) {
+   .container {
+      width: 90% !important;
+   }
+   .text-tab {
+      font-size: 56px !important;
+      margin-top: 70px !important;
+      margin-right: 0px !important;
+   }
+   .text-tab-tab1 {
+      font-size: 64px !important;
+      letter-spacing: 6px !important;
+   }
+}

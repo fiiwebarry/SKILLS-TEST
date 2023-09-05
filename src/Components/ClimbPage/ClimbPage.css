@@ -1,9 +1,39 @@
 
 .container{
-    margin: 0 auto;
-    padding:0px;
-    width:60%;
+  margin: 0 auto;
+  padding:0px;
+  width:60%;
+}
+.Page-tab{
+  margin-top: 35px;
+}
+
+.history-tab {
+  padding-top: 40px;
+}
+
+.sub-tab {
+  display: flex;
+}
+
+.sub-tab-tab {
+  margin-top: 64px;
+}
+
+.title-tab {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 120px;
+  color: #6a7b98;
+}
+
+.div-tab {
+  background-color: #6a7b98;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .sub-tab {
+    /* flex-direction: column; */
   }
-  .Page-tab{
-    margin-top: 35px;
-  }
+}

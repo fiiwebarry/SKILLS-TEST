@@ -5,7 +5,6 @@ const Navbar = () => {
 
     return (
 
-
         <div className="container">
             <div className="Navbar-tab">
                 <div className="Nav-tab-tablet">
@@ -14,9 +13,7 @@ const Navbar = () => {
                         <p className="text-tab-tab">LOSANGELES</p>
                         <p className="text-tab-text">MOUNTAINS</p>
                     </div>
-
                 </div>
-
 
                 <div className="Navbar-text">
                     <a className="padding text">01.HISTORY</a>

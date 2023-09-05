@@ -9,3 +9,19 @@
     margin-top: 5px;
     color: #4d4d4d;
 } */
+.Navbar-tab {
+    align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+    .Navbar-tab {
+        flex-direction: column;
+        gap: 16px;
+        justify-content: start !important;
+        padding-bottom: 10px;
+        /* align-items: start !important; */
+    }
+    .padding.text {
+        padding: 10px;
+    }
+}

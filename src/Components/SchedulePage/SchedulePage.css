@@ -1,9 +1,8 @@
 .main-holder{
-
-    background-image: url(/src/assets/Images/hike.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 110vh;
+    padding: 4px;
 }
 .mountain-page{
     background-color: #404f6c;
@@ -12,33 +11,26 @@
     align-items: center;
     height: 100%;
     display: flex;
+}
 
+.mountain1, .mountain2 {
+    /* height:30px; */
+    border: 0;
+    border-radius: 0;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 18px;
 }
-.mountain1{
-    background-color:#b0b4be;
-    height:30px;
-    display: flex;
-    align-items: center;
-    padding: 0px 10px;
-}
-.mountain2{
-    height:30px;
-    display: flex;
-    align-items: center;
-    padding: 0px 10px;
-}
+
 .schedule-holder{
     background-color: white;
     width:400px;
-    height: 300px;
+    /* height: 300px; */
     padding: 20px;
-    margin-left: 320px;
+    margin-left: 120px;
+    margin-top: 180px;
 }
 .schedule-tab{
     display: flex;
     gap:20px;
 }
-/* .Nav-tab-tablet{
-    display: flex;
-    gap: 10px;
-} */
