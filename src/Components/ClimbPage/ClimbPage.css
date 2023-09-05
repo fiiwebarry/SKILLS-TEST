@@ -32,6 +32,9 @@
   height: 20px;
 }
 
+
+
+/* TABLET VIEW */
 @media screen and (max-width: 820px) {
   .history-tab{
     margin-top: 939px;
@@ -40,7 +43,7 @@
 }
 
 
-
+/* MOBILE VIEW */
 @media screen and (max-width: 420px) {
   .sub-tab {
      flex-direction: column; 

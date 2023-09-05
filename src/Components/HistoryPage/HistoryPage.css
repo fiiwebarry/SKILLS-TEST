@@ -78,9 +78,6 @@
     font-size: 16px;
   }
 
-  /* .history-tab {
-    padding-top: -40px !important; 
-} */
   .container.tourist {
     display: flex;
     flex-direction: column;
@@ -102,6 +99,7 @@
 }
 }
 
+/* MOBILE VIEW */
 @media screen and (max-width: 420px) {
 .tourist-tab {
   position: absolute;
@@ -116,4 +114,6 @@
   margin-top: -500px;
  
 }
+
+
 }

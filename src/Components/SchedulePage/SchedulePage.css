@@ -63,7 +63,7 @@
 
 
 
-
+/* TABLET VIEW */
 @media screen and (max-width: 820px) {
 
     .schedule-holder {
@@ -77,6 +77,7 @@
 }
 }
 
+/* MOBILE VIEW */
 @media screen and (max-width: 420px) {
 
     .schedule-holder {

@@ -1,6 +1,7 @@
 import "./Hero.css";
 import Icon from "/src/assets/Logo/LOGO.png";
 
+
 const Hero = () => {
 
     return (
@@ -14,8 +15,10 @@ const Hero = () => {
                     </div>
 
                     <div className="Navbar-text">
-                        <a className="padding">01.HISTORY</a>
-                        <a className="padding">02.TEAM</a>
+
+                        <a href="#History" className="padding">01.HISTORY </a>
+                        <a href="#Team" className="padding">02.TEAM </a>
+
                     </div>
                 </div>
             </div>

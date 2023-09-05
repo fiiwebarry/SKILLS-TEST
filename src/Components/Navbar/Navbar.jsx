@@ -16,8 +16,12 @@ const Navbar = () => {
                 </div>
 
                 <div className="Navbar-text">
-                    <a className="padding text">01.HISTORY</a>
-                    <a className="padding text">02.TEAM</a>
+
+
+                    <a href="#History" className="padding text">01.HISTORY </a>
+                    <a href="#Team" className="padding text">02.TEAM </a>
+
+
                 </div>
 
             </div>
