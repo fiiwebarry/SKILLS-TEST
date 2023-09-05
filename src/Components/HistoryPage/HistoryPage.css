@@ -1,0 +1,52 @@
+.container{
+  margin: 0 auto;
+  padding:0px;
+  width:60%;
+}
+
+.main-page{
+  background-image: url("/src/assets/Images/peak.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh; 
+}
+.history-tab{
+
+  padding-top: 40px;
+}
+.sub-tab{
+  display: flex;
+}
+.sub-tab-tab{
+  margin-top: 64px;
+}
+.title-tab{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 120px;
+  color: #6a7b98;
+}
+.div-tab{
+  background-color: #6a7b98;
+  width:20px;
+  height: 20px;
+}
+.tourist-tab{
+  margin-top: 500px;
+  background-color: rgba(59,73,98,0.6);
+}
+.sub-history{
+  font-size: 30px;
+  color:#404f6c
+}
+.lorem-text{
+  margin-left: 40px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  line-height: 30px;
+}
+.tourist{
+  padding: 5px;
+}
+.padding{
+  padding: 5px;
+}

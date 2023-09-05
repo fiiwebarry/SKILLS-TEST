@@ -1,0 +1,67 @@
+.page-holder-tab{
+
+ background-image: url("/src/assets/Images/page-holder.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 80vh;
+
+}
+.container{
+    margin: 0 auto;
+    padding:0px;
+    width:60%;
+ }
+ 
+ .Navbar-tab{
+
+     padding-top: 20px; 
+     display: flex;
+     justify-content: space-between;
+ }
+ .Navbar-text{
+   /* font-family: 'Bebas Neue', sans-serif; */
+font-family: 'Lato', sans-serif;
+color:#ffff;
+ /* font-family: 'Oswald', sans-serif; */
+ }
+ a{
+   text-decoration: underline;
+ }
+ .text-tab{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 120px;
+    font-size: 110px;
+    margin-top: 140px;
+    margin-right: 140px;
+    
+ }
+ .text-tab-tab{
+    color:#4d4d4d;
+   
+ }
+ .text-tab-text{
+    color: #3f4d6a;
+   
+    
+ }
+ .text-tab-tab1{
+   color:#4d4d4d;
+
+   /* width:70px; */
+   
+   display: inline-block;
+   
+}
+
+.text-tab-text2{
+   color: #3f4d6a;
+   width:200%;
+
+  
+}
+ /* .padding{
+   padding: 30px;
+ } */

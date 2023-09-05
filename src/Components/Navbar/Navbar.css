@@ -1,0 +1,11 @@
+.Nav-tab-tablet{
+    display: flex;
+    gap: 10px;
+}
+.text{
+    color:#404f6c;
+}
+/* .text-tab-tab{
+    margin-top: 5px;
+    color: #4d4d4d;
+} */

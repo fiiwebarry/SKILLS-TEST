@@ -1,0 +1,44 @@
+.main-holder{
+
+    background-image: url(/src/assets/Images/hike.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+.mountain-page{
+    background-color: #404f6c;
+}
+.mount-pager{
+    align-items: center;
+    height: 100%;
+    display: flex;
+
+}
+.mountain1{
+    background-color:#b0b4be;
+    height:30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.mountain2{
+    height:30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.schedule-holder{
+    background-color: white;
+    width:400px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 320px;
+}
+.schedule-tab{
+    display: flex;
+    gap:20px;
+}
+/* .Nav-tab-tablet{
+    display: flex;
+    gap: 10px;
+} */
