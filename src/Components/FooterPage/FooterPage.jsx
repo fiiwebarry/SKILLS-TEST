@@ -12,7 +12,7 @@ const FooterPage = () => {
                         <img src={Icon} />
                         <div>
                             <p className="text-tab-tab3">LOSANGELES</p>
-                            <p className="text-tab-text3">MOUNTAINS</p>
+                            <p className="text-tab-text4">MOUNTAINS</p>
                         </div>
 
                     </div>

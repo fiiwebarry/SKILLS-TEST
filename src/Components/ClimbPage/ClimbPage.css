@@ -32,8 +32,38 @@
   height: 20px;
 }
 
-@media screen and (max-width: 640px) {
-  .sub-tab {
-    /* flex-direction: column; */
+@media screen and (max-width: 820px) {
+  .history-tab{
+    margin-top: 939px;
   }
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+  .sub-tab {
+     flex-direction: column; 
+}
+.history-tab{
+  margin-top: 539px;
+}
+.sub-history {
+  margin-top: -60px;
+  margin-left: 30px;
+  font-size: 50px;
+  color: #404f6c;
+}
+.div-tab {
+  margin-left: 34px;
+ 
+}
+.title-tab {
+  margin-left: 30px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 120px;
+  color: #6a7b98;
+}
+
+
 }

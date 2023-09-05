@@ -30,10 +30,10 @@ a{
    justify-content: center;
    justify-items: center;
    font-family: 'Bebas Neue', sans-serif;
-   line-height: 1.1;
+   line-height: 130px;
    font-size: 110px;
-   margin-top: 140px;
-   margin-right: 140px; 
+   margin-top: 90px;
+   margin-right: 200px; 
 }
 
 .text-tab-tab{
@@ -46,13 +46,18 @@ a{
 
 .text-tab-tab1{
    color:#4d4d4d;
-   letter-spacing: 10px;
-   font-size: 130px;
+   letter-spacing: 8px;
+   font-size: 160px;
    display: inline-block;
 }
 
 .text-tab-text2{
    color: #3f4d6a;
+   font-size: 190px;
+   /* transform: translate(-50%, -50%); */
+    /* background-color: rgba(255, 255, 255, 0.4); Adjust the last value for opacity */
+    background-color: rgba(200,210,229,0.2);
+    padding: 10px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -70,7 +75,7 @@ a{
    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
    .container {
       width: 80% !important;
    }
@@ -84,7 +89,7 @@ a{
    }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 414px) {
    .container {
       width: 85% !important;
    }
@@ -111,4 +116,12 @@ a{
       font-size: 64px !important;
       letter-spacing: 6px !important;
    }
+   .text-tab-text2{
+      font-size: 80px;
+   }
+   .container.tourist {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
 }

@@ -13,6 +13,14 @@
     align-items: center;
 }
 
+
+@media screen and (max-width: 820px) {
+    .Navbar-tab{
+        margin-bottom: 90px;
+    }
+
+}
+
 @media screen and (max-width: 420px) {
     .Navbar-tab {
         flex-direction: column;
@@ -24,4 +32,8 @@
     .padding.text {
         padding: 10px;
     }
+    .Navbar-tab{
+        margin-bottom: 10px !important;
+    }
+   
 }
